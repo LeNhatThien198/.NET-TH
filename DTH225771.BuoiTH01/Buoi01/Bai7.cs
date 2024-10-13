@@ -15,7 +15,7 @@ namespace Bai7
         private string loaiTamGiac;
         private float Dientich;
 		
-       public TamGiac()
+        public TamGiac()
         {
             Canh1 = 2;
             Canh2 = 3;
