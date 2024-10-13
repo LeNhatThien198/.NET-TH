@@ -21,13 +21,13 @@ namespace Bai7
             Canh2 = 3;
             Canh3 = -5;
         }
-		public TamGiac(int a, int b, int c)
-		{
-			Canh1 = a;
-			Canh2 = b;
-			Canh3 = c;
-		}
-		public int TinhChuVi()
+	public TamGiac(int a, int b, int c)
+	{
+		Canh1 = a;
+		Canh2 = b;
+		Canh3 = c;
+	}
+	public int TinhChuVi()
         {
             Chuvi = Canh1 + Canh2 + Canh3;
             return Chuvi;
@@ -39,7 +39,7 @@ namespace Bai7
             Dientich = (float)Math.Sqrt(p * (p - Canh1) * (p - Canh2) * (p - Canh3));
             return Dientich;
         }
-		public string XetLoaiTamGiac()
+	public string XetLoaiTamGiac()
         {
             if (Canh1 == Canh2 && Canh2 == Canh3)
             {
@@ -62,8 +62,8 @@ namespace Bai7
         }
     }
 	
-	class Program
-	{
+     class Program
+     {
     	public static void Main()
     	{
         	int n;
@@ -72,26 +72,26 @@ namespace Bai7
         	TamGiac[] _arrTamGiac = new TamGiac[n];
         	for (int i = 0; i < n; i++)
         	{
-            	Console.WriteLine("Nhập tam giác thứ: " + (i + 1).ToString());
-            	Console.Write("Nhập a: ");
-            	int a = int.Parse(Console.ReadLine());
-            	Console.Write("Nhập b: ");
-            	int b = int.Parse(Console.ReadLine());
-            	Console.Write("Nhập c: ");
-            	int c = int.Parse(Console.ReadLine());
-            	_arrTamGiac[i] = new TamGiac(a, b, c);
-            	_arrTamGiac[i].TinhChuVi();
-            	_arrTamGiac[i].TinhDienTich();
-            	_arrTamGiac[i].XetLoaiTamGiac();
+            		Console.WriteLine("Nhập tam giác thứ: " + (i + 1).ToString());
+            		Console.Write("Nhập a: ");
+            		int a = int.Parse(Console.ReadLine());
+            		Console.Write("Nhập b: ");
+            		int b = int.Parse(Console.ReadLine());
+            		Console.Write("Nhập c: ");
+            		int c = int.Parse(Console.ReadLine());
+            		_arrTamGiac[i] = new TamGiac(a, b, c);
+            		_arrTamGiac[i].TinhChuVi();
+            		_arrTamGiac[i].TinhDienTich();
+            		_arrTamGiac[i].XetLoaiTamGiac();
         	}
 
         	Console.WriteLine("Danh sách tam giác: ");
         	Console.WriteLine("{0,-15}{1,-15}{2,-15}{3,-15}{4,-15}{5,-15}", "Cạnh 1", "Cạnh 2", "Cạnh 3", "Chu vi", "Diện tích", "Loại tam giác");
         	for (int i = 0; i < n; i++)
         	{
-            	_arrTamGiac[i].xuat();
+            		_arrTamGiac[i].xuat();
         	}
         	Console.ReadLine();
     	}
-	}
+    }
 }
