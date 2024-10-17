@@ -1,0 +1,10 @@
+Z:\.NET-TH\DTH225771.BuoiTH04\Buoi04\Bai1\bin\Debug\Bai1.exe.config
+Z:\.NET-TH\DTH225771.BuoiTH04\Buoi04\Bai1\bin\Debug\Bai1.exe
+Z:\.NET-TH\DTH225771.BuoiTH04\Buoi04\Bai1\bin\Debug\Bai1.pdb
+Z:\.NET-TH\DTH225771.BuoiTH04\Buoi04\Bai1\obj\Debug\Bai1.csproj.AssemblyReference.cache
+Z:\.NET-TH\DTH225771.BuoiTH04\Buoi04\Bai1\obj\Debug\Bai1.frmMangSoNguyen.resources
+Z:\.NET-TH\DTH225771.BuoiTH04\Buoi04\Bai1\obj\Debug\Bai1.Properties.Resources.resources
+Z:\.NET-TH\DTH225771.BuoiTH04\Buoi04\Bai1\obj\Debug\Bai1.csproj.GenerateResource.cache
+Z:\.NET-TH\DTH225771.BuoiTH04\Buoi04\Bai1\obj\Debug\Bai1.csproj.CoreCompileInputs.cache
+Z:\.NET-TH\DTH225771.BuoiTH04\Buoi04\Bai1\obj\Debug\Bai1.exe
+Z:\.NET-TH\DTH225771.BuoiTH04\Buoi04\Bai1\obj\Debug\Bai1.pdb
